@@ -1,0 +1,46 @@
+# Comments:
+
+// This is a new style comment
+/* This is an old style comment */ if (test = true) return;
+// (){}[] ' " \
+/* (){}[] ' '" \  ( ] */
+
+# Working Syntax:
+
+[]
+{}
+()
+{([])}
+
+" This is a string literal\n"
+" Escape '\\' test"
+" Double test \"Test 2\""
+
+# Broken Syntax:
+
+*/
+// /*
+
+\
+
+'dfsaf'
+
+"\s"
+"\"}"
+"\\"
+'\\'
+"\n \w"
+"// this is a comment detetct test"
+"/* comment maybe ? */"
+
+"dasfsafsafsafa
+
+
+)(
+][
+}{
+
+[]
+{}
+()
+{([])}

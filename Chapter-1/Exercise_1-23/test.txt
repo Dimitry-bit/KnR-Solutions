@@ -1,0 +1,19 @@
+# Comments:
+
+// This is a new style comment
+// (){}[] ' "
+/* (){}[] ' '" \  ( ] */
+/* This is an old style comment */ if (test = true) return;
+// "// this is a comment detetct test"
+
+" This is a string literal\n"
+" Escape '\\' test"
+" Double test \"Test 2\""
+
+"\s"
+"\"}"
+"\\"
+'\\'
+"\n \w"
+"// this is a comment detetct test"
+"/* comment maybe ? */"
