@@ -1,0 +1,12 @@
+char *queue_dequeue(void)
+{
+	char *result;
+
+	if (queue_empty())
+		return NULL;
+
+	result = values[head];
+	head = (head + 1) % size;
+	--entries_count;
+	return result;
+}
